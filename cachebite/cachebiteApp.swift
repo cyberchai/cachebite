@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct cachebiteApp: App {
+struct cachebite: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+

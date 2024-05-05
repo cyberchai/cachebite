@@ -3,13 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		023FAA2D2BD83F8E005F4436 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023FAA2C2BD83F8E005F4436 /* HomePage.swift */; };
+		025DCF052BDB22B100A0DB21 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DCF042BDB22B100A0DB21 /* Tasks.swift */; };
+		025DCF072BDB2C9E00A0DB21 /* AcceptedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DCF062BDB2C9E00A0DB21 /* AcceptedCard.swift */; };
+		025DCF092BDB2FCE00A0DB21 /* HomeUrgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DCF082BDB2FCE00A0DB21 /* HomeUrgent.swift */; };
+		025DCF0B2BDB373600A0DB21 /* RequestedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DCF0A2BDB373600A0DB21 /* RequestedCard.swift */; };
+		025DCF0D2BDB3CE200A0DB21 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DCF0C2BDB3CE200A0DB21 /* Card.swift */; };
+		0294F9952BD86748001800AB /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9942BD86748001800AB /* NavBar.swift */; };
+		0294F9972BD86758001800AB /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9962BD86758001800AB /* OnBoarding.swift */; };
+		0294F9992BD8676C001800AB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9982BD8676C001800AB /* Location.swift */; };
+		0294F99B2BD8677B001800AB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F99A2BD8677B001800AB /* HomeView.swift */; };
+		0294F9A82BD8692A001800AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9A72BD8692A001800AB /* ContentView.swift */; };
+		0294F9AC2BD86980001800AB /* onBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9AB2BD86980001800AB /* onBoardingPage.swift */; };
+		0294F9AE2BD86ECC001800AB /* CheckOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9AD2BD86ECC001800AB /* CheckOut.swift */; };
+		0294F9B02BD86EED001800AB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9AF2BD86EED001800AB /* Profile.swift */; };
+		0294F9B22BD87125001800AB /* AllRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9B12BD87125001800AB /* AllRequest.swift */; };
+		0294F9B42BD8B782001800AB /* ManualSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294F9B32BD8B782001800AB /* ManualSelect.swift */; };
+		DF1646702BDFEE7100E3C60B /* MakeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF16466F2BDFEE7100E3C60B /* MakeRequest.swift */; };
 		DFF039CE2BD7704500BC730A /* cachebiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF039CD2BD7704500BC730A /* cachebiteApp.swift */; };
-		DFF039D02BD7704500BC730A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF039CF2BD7704500BC730A /* ContentView.swift */; };
 		DFF039D22BD7704600BC730A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF039D12BD7704600BC730A /* Assets.xcassets */; };
 		DFF039D52BD7704600BC730A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF039D42BD7704600BC730A /* Preview Assets.xcassets */; };
 		DFF039DF2BD7704600BC730A /* cachebiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF039DE2BD7704600BC730A /* cachebiteTests.swift */; };
@@ -35,10 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023FAA2C2BD83F8E005F4436 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		025DCF042BDB22B100A0DB21 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		025DCF062BDB2C9E00A0DB21 /* AcceptedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedCard.swift; sourceTree = "<group>"; };
+		025DCF082BDB2FCE00A0DB21 /* HomeUrgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUrgent.swift; sourceTree = "<group>"; };
+		025DCF0A2BDB373600A0DB21 /* RequestedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestedCard.swift; sourceTree = "<group>"; };
+		025DCF0C2BDB3CE200A0DB21 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0294F9942BD86748001800AB /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		0294F9962BD86758001800AB /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		0294F9982BD8676C001800AB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0294F99A2BD8677B001800AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0294F9A72BD8692A001800AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0294F9AB2BD86980001800AB /* onBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingPage.swift; sourceTree = "<group>"; };
+		0294F9AD2BD86ECC001800AB /* CheckOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOut.swift; sourceTree = "<group>"; };
+		0294F9AF2BD86EED001800AB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0294F9B12BD87125001800AB /* AllRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRequest.swift; sourceTree = "<group>"; };
+		0294F9B32BD8B782001800AB /* ManualSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSelect.swift; sourceTree = "<group>"; };
+		DF16466F2BDFEE7100E3C60B /* MakeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeRequest.swift; sourceTree = "<group>"; };
 		DFF039CA2BD7704500BC730A /* cachebite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cachebite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF039CD2BD7704500BC730A /* cachebiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cachebiteApp.swift; sourceTree = "<group>"; };
-		DFF039CF2BD7704500BC730A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		DFF039D12BD7704600BC730A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF039D42BD7704600BC730A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFF039DA2BD7704600BC730A /* cachebiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cachebiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +101,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0294F9922BD86722001800AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				025DCF0C2BDB3CE200A0DB21 /* Card.swift */,
+				0294F9AB2BD86980001800AB /* onBoardingPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0294F9932BD8672D001800AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0294F9942BD86748001800AB /* NavBar.swift */,
+				0294F9962BD86758001800AB /* OnBoarding.swift */,
+				0294F9982BD8676C001800AB /* Location.swift */,
+				0294F9B32BD8B782001800AB /* ManualSelect.swift */,
+				0294F99A2BD8677B001800AB /* HomeView.swift */,
+				025DCF082BDB2FCE00A0DB21 /* HomeUrgent.swift */,
+				025DCF0A2BDB373600A0DB21 /* RequestedCard.swift */,
+				025DCF062BDB2C9E00A0DB21 /* AcceptedCard.swift */,
+				0294F9B12BD87125001800AB /* AllRequest.swift */,
+				0294F9AD2BD86ECC001800AB /* CheckOut.swift */,
+				025DCF042BDB22B100A0DB21 /* Tasks.swift */,
+				0294F9AF2BD86EED001800AB /* Profile.swift */,
+				DF16466F2BDFEE7100E3C60B /* MakeRequest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DFF039C12BD7704500BC730A = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +153,10 @@
 		DFF039CC2BD7704500BC730A /* cachebite */ = {
 			isa = PBXGroup;
 			children = (
+				0294F9922BD86722001800AB /* Models */,
+				0294F9932BD8672D001800AB /* Views */,
 				DFF039CD2BD7704500BC730A /* cachebiteApp.swift */,
-				DFF039CF2BD7704500BC730A /* ContentView.swift */,
-				023FAA2C2BD83F8E005F4436 /* HomePage.swift */,
+				0294F9A72BD8692A001800AB /* ContentView.swift */,
 				DFF039D12BD7704600BC730A /* Assets.xcassets */,
 				DFF039D32BD7704600BC730A /* Preview Content */,
 			);
@@ -210,7 +268,7 @@
 				};
 			};
 			buildConfigurationList = DFF039C52BD7704500BC730A /* Build configuration list for PBXProject "cachebite" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,9 +318,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF039D02BD7704500BC730A /* ContentView.swift in Sources */,
-				023FAA2D2BD83F8E005F4436 /* HomePage.swift in Sources */,
+				025DCF092BDB2FCE00A0DB21 /* HomeUrgent.swift in Sources */,
+				0294F99B2BD8677B001800AB /* HomeView.swift in Sources */,
+				DF1646702BDFEE7100E3C60B /* MakeRequest.swift in Sources */,
+				025DCF0D2BDB3CE200A0DB21 /* Card.swift in Sources */,
+				0294F9B02BD86EED001800AB /* Profile.swift in Sources */,
+				025DCF0B2BDB373600A0DB21 /* RequestedCard.swift in Sources */,
+				0294F9952BD86748001800AB /* NavBar.swift in Sources */,
+				025DCF052BDB22B100A0DB21 /* Tasks.swift in Sources */,
+				0294F9B42BD8B782001800AB /* ManualSelect.swift in Sources */,
 				DFF039CE2BD7704500BC730A /* cachebiteApp.swift in Sources */,
+				0294F9AC2BD86980001800AB /* onBoardingPage.swift in Sources */,
+				0294F9A82BD8692A001800AB /* ContentView.swift in Sources */,
+				0294F9AE2BD86ECC001800AB /* CheckOut.swift in Sources */,
+				025DCF072BDB2C9E00A0DB21 /* AcceptedCard.swift in Sources */,
+				0294F9B22BD87125001800AB /* AllRequest.swift in Sources */,
+				0294F9992BD8676C001800AB /* Location.swift in Sources */,
+				0294F9972BD86758001800AB /* OnBoarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,17 +490,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cachebite/Preview Content\"";
-				DEVELOPMENT_TEAM = 2K9BK29ZX4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cache Bite";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +509,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chaira.cachebite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,17 +521,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cachebite/Preview Content\"";
-				DEVELOPMENT_TEAM = 2K9BK29ZX4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cache Bite";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +540,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chaira.cachebite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
